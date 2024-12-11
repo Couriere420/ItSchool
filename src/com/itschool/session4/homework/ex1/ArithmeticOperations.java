@@ -8,9 +8,9 @@ public class ArithmeticOperations {
         System.out.println("Adauga primul numar");
         int myInt = scanner.nextInt();
         System.out.println("Aduaga al doilea numar");
-
         int myINt2 = scanner.nextInt();
-        int  addition = myInt + myINt2;
+
+        int addition = myInt + myINt2;
         int subtraction = myInt - myINt2;
         int multiplication = myInt * myINt2;
         int division = myInt / myINt2;
