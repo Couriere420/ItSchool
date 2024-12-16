@@ -13,6 +13,5 @@ public class ternaryOperator {
             System.out.println("I am a child");
 
         }
-
     }
 }
