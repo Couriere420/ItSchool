@@ -2,16 +2,14 @@ package com.itschool.session6.homework.ex3;
 
 import java.util.Scanner;
 
-public class ternaryOperator {
+public class TernaryOperator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your age");
         int age = scanner.nextInt();
-        if(age >18){
-            System.out.println("I am adult");
-        } else if (age <18) {
-            System.out.println("I am a child");
+        String message = (age >= 18) ? "I am adult" : "I am a child";
+        System.out.println(message);
 
         }
     }
-}
+
