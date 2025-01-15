@@ -11,9 +11,9 @@ public class Operations {
         int myInt2 = scanner.nextInt();
         int adunare = myInt + myInt2;
         int scadere = myInt - myInt2;
-        int inmultire = myInt / myInt2;
+        int impartirea = myInt / myInt2;
         System.out.println("Adunare:" + adunare);
         System.out.println("Scadere:" + scadere);
-        System.out.println("Inmultire:" + inmultire);
+        System.out.println("Impartirea:" + impartirea);
     }
 }
