@@ -10,6 +10,6 @@ public class TernaryOperator {
         String message = (age >= 18) ? "I am adult" : "I am a child";
         System.out.println(message);
 
-        }
     }
+}
 

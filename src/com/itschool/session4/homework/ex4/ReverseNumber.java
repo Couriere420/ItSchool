@@ -1,4 +1,4 @@
-package com.itschool.session4.ex4;
+package com.itschool.session4.homework.ex4;
 
 import java.util.Scanner;
 

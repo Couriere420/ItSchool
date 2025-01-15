@@ -1,4 +1,4 @@
-package com.itschool.session4.ex4;
+package com.itschool.session4.homework.ex4;
 
 import java.util.Scanner;
 
@@ -14,6 +14,6 @@ public class Operations {
         int inmultire = myInt / myInt2;
         System.out.println("Adunare:" + adunare);
         System.out.println("Scadere:" + scadere);
-        System.out.println("INmultire: + inmultire");
-            }
+        System.out.println("Inmultire:" + inmultire);
+    }
 }

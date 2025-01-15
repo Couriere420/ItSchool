@@ -10,13 +10,8 @@ public class AdvencedFlowControl {
         if (number % 2 == 0) {
             System.out.println("Even");
         } else {
-            System.out.println(" Odo");
+            System.out.println(" Odd");
 
         }
     }
 }
-
-
-
-
-
