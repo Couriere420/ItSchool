@@ -16,13 +16,11 @@ public class ArithmeticOperations {
         int division = myInt / myINt2;
         int modulus = myInt % myINt2;
 
-        System.out.println("Addition: " + addition );
+        System.out.println("Addition: " + addition);
         System.out.println("Subtraction : " + subtraction);
         System.out.println("Multiplication: " + multiplication);
         System.out.println("Division: " + division);
         System.out.println("Modulus: " + modulus);
-
-
 
     }
 }
