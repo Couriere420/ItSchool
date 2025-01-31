@@ -12,5 +12,6 @@ public class SpeedBoat extends Boat {
 
     public void turboBoost() {
         System.out.println("SpeedBoat is boosting at " + maxSpeed + " km/h!");
+
     }
 }

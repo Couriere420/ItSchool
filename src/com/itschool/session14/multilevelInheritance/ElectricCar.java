@@ -10,8 +10,6 @@ public class ElectricCar extends Car {
         this.range = range;
     }
 
-
-
     public void charge() {
         System.out.println(make + " " + model + " is charging. Battery capacity: " + batteryCapacity + " kWh.");
     }

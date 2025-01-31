@@ -9,5 +9,6 @@ public class TestHierarchicainHeritance {
         FishingBoat theRedRose = new FishingBoat(15, 500, 250, "Gillnet");
         theRedRose.sail();
         theRedRose.castNet();
+
     }
 }

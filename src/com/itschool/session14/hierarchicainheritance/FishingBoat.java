@@ -12,5 +12,6 @@ public class FishingBoat extends Boat {
 
     public void castNet() {
         System.out.println("Casting the :" + typeOfNet + " net.");
+
     }
 }

@@ -11,15 +11,16 @@ public class Car {
         this.model = model;
     }
 
-    public void start(){
+    public void start() {
         System.out.println(make + " " + model + " is starting.");
     }
 
-    public void stop(){
+    public void stop() {
         System.out.println(make + " " + model + " is starting.");
 
     }
-    public void accelerate(){
+
+    public void accelerate() {
         System.out.println(make + " " + model + "is accelerating");
 
     }
