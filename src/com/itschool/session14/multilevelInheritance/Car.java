@@ -16,7 +16,7 @@ public class Car {
     }
 
     public void stop() {
-        System.out.println(make + " " + model + " is starting.");
+        System.out.println(make + " " + model + " is stopping.");
 
     }
 

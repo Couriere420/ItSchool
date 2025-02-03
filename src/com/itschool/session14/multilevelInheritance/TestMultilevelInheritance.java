@@ -6,10 +6,10 @@ public class TestMultilevelInheritance {
                 "Model-S", 1000, "Sport", "Yes");
 
         myTesla.start();
-        myTesla.stop();
         myTesla.accelerate();
-        myTesla.charge();
         myTesla.enableAutopilot();
+        myTesla.stop();
+        myTesla.charge();
 
     }
 }

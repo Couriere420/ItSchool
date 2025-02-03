@@ -1,6 +1,6 @@
 package com.itschool.session14.hierarchicainheritance;
 
-public class TestHierarchicainHeritance {
+public class TestHierarchicalInheritance {
     public static void main(String[] args) {
         SpeedBoat yamaha = new SpeedBoat(27, 800, 400, "Turbo-S");
         yamaha.sail();
