@@ -13,4 +13,5 @@ public class ExampleA extends Marks {
     protected double getPercentage() {
         return (mark1 + mark2 + mark3) / 3;
     }
+
 }

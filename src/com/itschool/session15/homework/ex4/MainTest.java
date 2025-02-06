@@ -6,5 +6,6 @@ public class MainTest {
         subClass.aMethod();
         subClass.aMethod1();
 
+
     }
 }

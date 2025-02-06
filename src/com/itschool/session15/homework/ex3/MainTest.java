@@ -6,6 +6,7 @@ public class MainTest {
         Marks marks1 = new ExampleB(1, 5, 6, 9);
         System.out.println("Percentage of Student A: " + marks.getPercentage() + "%");
         System.out.println("Percentage of Student B: " + marks1.getPercentage() + "%");
+
     }
 
 }

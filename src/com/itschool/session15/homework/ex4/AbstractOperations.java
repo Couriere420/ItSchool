@@ -11,4 +11,5 @@ public abstract class AbstractOperations {
         System.out.println("This is a normal method of abstract class");
     }
 
+
 }

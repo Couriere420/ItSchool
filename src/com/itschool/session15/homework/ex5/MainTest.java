@@ -6,6 +6,7 @@ public class MainTest {
 
         for (Animal animal : animals) {
             animal.sound();
+
         }
     }
 }
