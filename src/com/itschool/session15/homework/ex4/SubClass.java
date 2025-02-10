@@ -4,4 +4,5 @@ public class SubClass extends AbstractOperations {
     public void aMethod() {
         System.out.println("This is abstract method");
     }
+
 }

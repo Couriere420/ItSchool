@@ -1,7 +1,9 @@
 package com.itschool.session15.homework.ex3;
 
 public class ExampleA extends Marks {
-    private double mark1, mark2, mark3;
+    private final double mark1;
+    private final double mark2;
+    private final double mark3;
 
     public ExampleA(double mark1, double mark2, double mark3) {
         this.mark1 = mark1;
@@ -13,4 +15,5 @@ public class ExampleA extends Marks {
     protected double getPercentage() {
         return (mark1 + mark2 + mark3) / 3;
     }
+
 }
