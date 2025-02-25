@@ -26,12 +26,12 @@ public class CollectionsDemo {
         }
 
         // 3. Insert an element at first position
-        colors.add(0, "Red");
+        colors.addFirst("Red");
         System.out.println("3.\nAfter inserting at first position: " + colors);
 
 
         // 4. Retrieve an element at a specified index
-        //colors.get(2);
+        colors.get(2);
         System.out.println("4.\nElement at index 2: " + colors.get(2));
 
         // 5. Update specific array element
@@ -87,15 +87,18 @@ public class CollectionsDemo {
         System.out.println("17.\nAfter clearing: " + colors);
 
         // 18. Test if an ArrayList is empty
-        System.out.println("18.\nIs the list empty? " + true);
 
-        // 19. Trim capacity
-        colors.trimToSize();
-        System.out.println("19.\nAfter trimming capacity: " + colors);
+        if (colors.isEmpty()) {
+            System.out.println("18.\nThe list is empty.");
 
-        // 20. Increase size of an ArrayList
-        colors.ensureCapacity(10);
-        System.out.println("20\nIncreased capacity.");
+            // 19. Trim capacity
+            colors.trimToSize();
+            System.out.println("19.\nAfter trimming capacity: " + colors);
+
+            // 20. Increase size of an ArrayList
+            colors.ensureCapacity(10);
+            System.out.println("20\nIncreased capacity.");
+        }
+
     }
-
 }
